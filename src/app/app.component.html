@@ -1,0 +1,18 @@
+<app-superhero-toolbar (menuClick)="toggleSidenav($event)" (switchToTabs)="switchToTabs($event)">
+</app-superhero-toolbar>
+
+
+<div *ngIf="switchTabsOrSidenav else tabs">
+    <app-tab-sample> </app-tab-sample>
+</div>
+
+<ng-template #tabs>
+    <app-superhero-sidenav-container>
+        <app-superhero-sidenav #sidenav position="start"></app-superhero-sidenav>
+        <app-superhero-sidenav-content>
+            <div class="container-padding">
+                <router-outlet></router-outlet>
+            </div>
+        </app-superhero-sidenav-content>
+    </app-superhero-sidenav-container>
+</ng-template>

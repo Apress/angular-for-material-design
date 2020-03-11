@@ -1,0 +1,30 @@
+div{
+    width: 100%;
+}
+
+mat-form-field{
+    width: 100%;
+}
+
+.pull-right{
+    text-align: right;
+}
+
+button{
+    margin: 2px 10px 5px 10px;
+}
+
+.error-message{
+    padding: 5px 5px 5px 5px;
+    background-color: silver;
+}
+
+mat-card{    
+    padding: 10px 35px 35px 30px;
+    margin: 10px 35px 35px 30px;
+    width: 35%;
+}
+
+mat-card-footer{
+    font-style: italic;
+}

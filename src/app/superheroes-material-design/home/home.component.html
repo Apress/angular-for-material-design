@@ -1,0 +1,81 @@
+   <!-- <div class="hero">
+      <div>
+       <h2>Chhotta Bheem</h2>
+       <div>Loves laddu. Grows strong everyday</div>
+       <hr  /> <div *ngTemplateOutlet="heroContactDetails"></div>  <hr/>    
+      </div>
+    </div>
+
+    <ng-template #heroContactDetails>                 
+        <h3>Contact Details</h3>
+        Email: ChhottaBheem@angularsample.com
+        Meet him in Dholakpur Villege in India.
+      </ng-template>
+
+    <hr>
+    <hr> -->
+
+
+<div class="hero">
+
+  <!-- <div>
+    <ng-template ngFor let-hero [ngForOf]="superheroes">
+      <li > {{hero}} </li>
+    </ng-template>
+  </div> -->
+    
+    <div>
+      <input class="specialInput" type="checkbox" [(ngModel)]="isBold"> Bold
+    </div>
+    <div>
+      <input class="specialInput" type="checkbox" [(ngModel)]="isItalic"> Italic
+    </div>
+    <div>
+      <input class="specialInput" type="checkbox" [(ngModel)]="isStrikeThrough"> Strike-through
+    </div>
+
+    <div [ngStyle]="titleStyle">Chhotta Bheem</div>
+    <div>Loves laddu. Grows strong everyday</div>
+
+    <div>
+        Provide a birth place: <input type="text" [(ngModel)]="birthPlace">
+    </div>
+
+    <div [ngSwitch]="birthPlace">
+      <span *ngSwitchCase="'Dholakpur'">Earthling</span>
+      <span *ngSwitchCase="'Kryptonopolis'">Alien</span>
+      <span *ngSwitchCase="'Asgard'">Alien</span>
+      <span *ngSwitchCase="'New York'">Earthling</span>
+      <span *ngSwitchCase="'Gotham'">Earthling</span>
+      <span *ngSwitchDefault>Provide a known birthplace</span>
+
+    </div>
+
+    <!-- <ng-container *ngIf="showContacts; then contactDetails else hiddenText">
+
+    </ng-container> -->
+
+    <div>
+        <input class="specialInput" type="checkbox" [(ngModel)]="showContacts" > Show contact details      
+    </div>
+
+    <ng-container *ngIf="showContacts else hiddenText">
+      <hr />
+      <h3>Contact Details</h3>
+      Email: ChhottaBheem@angularsample.com
+      Meet him in Dholakpur Villege in India.
+    </ng-container>
+
+    <ng-template #hiddenText> 
+        <hr />
+        *Contact information is hidden.
+    </ng-template>
+
+  <div *ngFor="let hero of superheroes; index as i; first as isFirst; last as isLast; even as isEven; odd as isOdd">
+    {{i+1}}. {{hero}} 
+    <ng-template [ngIf]="isFirst">(first)</ng-template> 
+    <ng-template [ngIf]="isLast">(last)</ng-template> 
+    <ng-template [ngIf]="isEven">(even)</ng-template> 
+    <ng-template [ngIf]="isOdd">(odd)</ng-template> 
+  </div>
+</div>

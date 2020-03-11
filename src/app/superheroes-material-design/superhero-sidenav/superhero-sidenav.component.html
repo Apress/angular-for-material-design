@@ -1,0 +1,50 @@
+<mat-sidenav mode="push" disableClose="true" [position]="position" #sidenav>
+  <!-- <div style="text-align: right; width: 100%">
+    <button mat-icon-button>X</button>
+  </div> -->
+  <div class="container">
+
+    <div>
+      <a routerLink="heroes-accordion" (click)="close()">
+        Accordion
+      </a>
+    </div>
+
+    <div>
+      <a routerLink="superhero-home" (click)="close()">
+        Basic Component
+      </a>
+    </div>
+
+    <div>
+      <a routerLink="hero-list" (click)="close()">
+        List
+      </a>
+    </div>
+
+    <div>
+      <a routerLink="hero-grid-list" (click)="close()">
+        Hero Grid List
+      </a>
+    </div>
+
+    <div>
+      <a routerLink="create-hero" (click)="close()">
+        Create Superhero
+      </a>
+    </div>
+
+    <div>
+      <a routerLink="heroes" (click)="close()">
+        Cards
+      </a>
+    </div>
+
+    <div>
+      <a routerLink="hero/Spiderman" (click)="close()">
+        Profile Card (Spiderman)
+      </a>
+    </div>
+
+  </div>
+</mat-sidenav>

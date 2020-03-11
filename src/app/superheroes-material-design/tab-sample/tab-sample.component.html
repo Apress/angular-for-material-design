@@ -1,0 +1,52 @@
+<div>
+  <mat-tab-group>
+    <mat-tab>
+      <ng-template mat-tab-label>
+        <mat-icon>dns</mat-icon> Accordion
+      </ng-template>
+      <app-superheroes-expandable-list></app-superheroes-expandable-list>
+    </mat-tab>
+    <mat-tab>
+      <ng-template mat-tab-label>
+        <mat-icon>reorder</mat-icon> New List
+      </ng-template>
+      <app-superhero-new-list></app-superhero-new-list>
+    </mat-tab>
+    <mat-tab>
+      <ng-template mat-tab-label>
+        <mat-icon>dashboard</mat-icon> Grid List
+      </ng-template>
+      <app-superhero-grid-list></app-superhero-grid-list>
+    </mat-tab>
+    <mat-tab>
+      <ng-template mat-tab-label>
+        <mat-icon>check</mat-icon> Basic Component Demo
+      </ng-template>
+      <app-home></app-home>
+    </mat-tab>
+    <mat-tab>
+      <ng-template mat-tab-label>
+        <mat-icon>list</mat-icon> Superheroes
+      </ng-template>
+      <app-superhero-list></app-superhero-list>
+    </mat-tab>
+    <mat-tab>
+      <ng-template mat-tab-label>
+        <mat-icon>create</mat-icon> Add Superhero
+      </ng-template>
+      <app-create-superhero></app-create-superhero>
+    </mat-tab>
+  </mat-tab-group>
+</div>
+
+<!-- <nav mat-tab-nav-bar>
+  <a routerLink="/create-hero" mat-tab-link>
+      Create 
+  </a>
+  <a routerLink="/heroes" [queryParams]="{sortOrder: 'descending'}" mat-tab-link >
+      List (Order Descending)
+  </a>
+  <a routerLink="/heroes" [queryParams]="{sortOrder: 'ascending'}"  mat-tab-link>
+      List (Order Ascending)
+  </a>
+</nav> -->

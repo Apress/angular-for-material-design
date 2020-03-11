@@ -1,0 +1,25 @@
+<mat-toolbar color="primary">  
+  <mat-toolbar-row>    
+    <div *ngIf="!isTabs" class="icon-padding">
+      <mat-icon (click)="toggleForMenuClick()" class="menu">menu</mat-icon>    
+    </div>
+    Superheroes
+    <span class="central-stretchable-space"></span>
+    <mat-slide-toggle (change)="toggleSidenav($event)">
+    </mat-slide-toggle>
+    <span class="toggle-span">
+        {{toggleMessage}}
+
+    </span>
+  </mat-toolbar-row>
+
+  <mat-toolbar-row *ngIf="showSecondRow">
+    <!-- List of Superheroes -->
+    <span class="central-stretchable-space"></span>
+    <ng-content></ng-content>
+    
+     <a class="action" (click)="agreementClick()">User Agreement</a>
+     <span *ngIf="fullname">- {{fullname}}</span>
+    <!--<a class="action">Create</a> -->
+  </mat-toolbar-row>
+</mat-toolbar>

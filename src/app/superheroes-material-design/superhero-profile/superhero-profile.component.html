@@ -1,0 +1,29 @@
+<mat-card>
+  <mat-card-header>
+    <!-- <div mat-card-avatar class="example-header-image"></div> -->
+    <img mat-card-avatar src="/assets/Superhero-logo.png" >
+
+    <mat-card-title>{{name}}</mat-card-title>
+    <mat-card-subtitle>A superhero, who lives in {{livesIn}}. </mat-card-subtitle>
+  </mat-card-header>
+  <img mat-card-image *ngIf="showCardImage" [src]="image" >
+  <mat-card-content>
+    <div>Appeared in the year {{firstAppearance}}</div>
+    <div>Lives in {{livesIn}}</div>
+    <div *ngFor="let power of superpowers">
+      {{power}}
+    </div>
+    <div *ngIf="address" >
+      Meet the superhero at
+      <div>
+        {{address.firstLine}}
+      </div>
+      <div>
+        {{address.city}}
+      </div>
+    </div>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button (click)="deleteHero()">Delete</button>
+  </mat-card-actions>
+</mat-card>

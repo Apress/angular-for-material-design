@@ -1,0 +1,11 @@
+mat-expansion-panel{
+    width: 60%;
+}
+
+mat-panel-title{
+    width:80px
+}
+
+button{
+    margin : auto 5px auto 5px;
+}

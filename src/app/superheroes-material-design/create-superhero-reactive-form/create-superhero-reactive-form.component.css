@@ -1,0 +1,25 @@
+div{
+    margin: 15px 15px 15px 15px;
+    width:400px;
+}
+
+mat-form-field{
+    width: 400px;
+}
+
+.pull-right{
+    text-align: right;
+}
+
+button{
+    margin: 2px 10px 5px 10px;
+}
+
+.error-message{
+    padding: 5px 5px 5px 5px;
+    background-color: silver;
+}
+
+mat-slider{
+    width: 350px
+}

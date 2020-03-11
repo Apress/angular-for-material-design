@@ -1,0 +1,30 @@
+<mat-accordion multi="true">
+  <mat-expansion-panel *ngFor="let hero of heroes" expanded="true">
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        {{hero.name}}
+      </mat-panel-title>
+      <mat-panel-description>
+        {{hero.details}}
+      </mat-panel-description>
+    </mat-expansion-panel-header>
+    <div>Lives in {{hero.country}}</div>
+    <div>
+      Superhero 
+      <span *ngFor="let power of hero.specialPowers">
+        {{power}}&nbsp;
+      </span>
+    </div>
+  
+    <div>
+        Likes to eat
+        <span *ngFor="let food of hero.favFood">
+          {{food}}
+        </span>
+      </div>
+    <mat-action-row>
+        <button mat-stroked-button> Fly </button>
+        <button mat-stroked-button > Shoot lazers </button>
+    </mat-action-row>
+  </mat-expansion-panel>
+</mat-accordion>

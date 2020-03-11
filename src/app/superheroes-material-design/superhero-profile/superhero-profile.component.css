@@ -1,0 +1,10 @@
+
+
+mat-card-footer{
+    font-style: italic;
+}
+
+.example-header-image {
+    background-image: url('/assets/spiderman.jpg');
+    background-size: cover;
+  }

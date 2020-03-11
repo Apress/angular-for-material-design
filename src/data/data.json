@@ -1,0 +1,88 @@
+{
+  "heroes": [
+    {
+      "name": "Batman",
+      "email": "batman@angularsample.com",
+      "details": "A hero in Gotham city",
+      "livesIn": "United Kingdom",
+      "cardImage": "batman.jpg",
+      "firstAppearance": 1950,
+      "specialPowers": [
+        "Martial Arts"
+      ],
+      "favFood": [
+        "Spaghetti"
+      ]
+    },
+    {
+      "name": "Chhotta Bheem",
+      "email": "ChhottaBheem@angularsample.com",
+      "details": "A hero in Dholakpur village",
+      "livesIn": "India",
+      "firstAppearance": 2008,
+      "cardImage": "bheem.png",
+      "specialPowers": [
+        "Strong"
+      ],
+      "favFood": [
+        "Laddu"
+      ]
+    },
+    {
+      "name": "Spiderman",
+      "email": "spiderman@angularsample.com",
+      "details": "Friendly neighbourhood superhero",
+      "livesIn": "New York",
+      "cardImage": "spiderman.jpg",
+      "firstAppearance": 1950,
+      "specialPowers": [
+        "Can Crawn", "Shoot Web", "Fly"
+      ],
+      "favFood": [
+        "Pizza"
+      ]
+    },
+    {
+      "name": "Antman",
+      "email": "antman@angularsample.com",
+      "details": "Being small is a superpower too",
+      "livesIn": "New York",
+      "firstAppearance": 1950,
+      "cardImage": "spiderman.jpg",
+      "specialPowers": [
+        "Can get too small"
+      ],
+      "favFood": [
+        "Sugar"
+      ]
+    },
+    {
+      "name": "Thor",
+      "email": "thor@angularsample.com",
+      "details": "God of Thunder",
+      "livesIn": "Asgard",
+      "firstAppearance": 2000,
+      "cardImage": "spiderman.jpg",
+      "specialPowers": [
+        "Strong", "Can throw a powerful hammer"
+      ],
+      "favFood": [
+        "Veggie Burger"
+      ]
+    },
+    {
+      "name": "Wonder Woman",
+      "email": "ww@angularsample.com",
+      "details": "Powerful super woman",
+      "livesIn": "SFO",
+      "firstAppearance": 1950,
+      "cardImage": "spiderman.jpg",
+      "specialPowers": [
+        "Strong"
+      ],
+      "favFood": [
+        
+      ]
+    }
+  ]
+}

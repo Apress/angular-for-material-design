@@ -1,0 +1,14 @@
+div{    
+    padding: 10px 20px 10px 5px;
+}
+
+.container{
+    padding: 40px;
+}
+
+a:link{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-size: 14;
+}

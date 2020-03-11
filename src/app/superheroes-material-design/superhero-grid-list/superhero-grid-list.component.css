@@ -1,0 +1,12 @@
+mat-grid-tile{
+    margin: 1px 1px 1px 1px;
+    background-color: lightblue;
+}
+
+app-superhero-profile{
+    width: 80%;
+}
+
+.grid-list{
+    margin: -10px -55px -10px -55px;
+}
