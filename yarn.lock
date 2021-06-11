@@ -4473,7 +4473,7 @@ json-schema@0.2.3:
   resolved "https://registry.yarnpkg.com/json-schema/-/json-schema-0.2.3.tgz#b480c892e59a2f05954ce727bd3f2a4e882f9e13"
   integrity sha1-tIDIkuWaLwWVTOcnvT8qTogvnhM=
 
-json-server@^0.15.1:
+json-server@^0.15.0:
   version "0.15.1"
   resolved "https://registry.yarnpkg.com/json-server/-/json-server-0.15.1.tgz#5d77575f1e15db20a361e0ed0a64bfbc3df11171"
   integrity sha512-6Vc6tC1uLasnMd6Ksnq+4gSQcRqLuSJ/yLoIG4fr4P8f5dAR1gbCqgaVRlk8jfRune0NXcrfDrz7liwAD2WEeQ==
@@ -5573,9 +5573,9 @@ normalize-range@^0.1.2:
   integrity sha1-LRDAa9/TEuqXd2laTShDlFa3WUI=
 
 normalize-url@^4.1.0:
-  version "4.4.1"
-  resolved "https://registry.yarnpkg.com/normalize-url/-/normalize-url-4.4.1.tgz#81e9c153b0ad5743755696f2aa20488d48e962b6"
-  integrity sha512-rjH3yRt0Ssx19mUwS0hrDUOdG9VI+oRLpLHJ7tXRdjcuQ7v7wo6qPvOZppHRrqfslTKr0L2yBhjj4UXd7c3cQg==
+  version "4.5.1"
+  resolved "https://registry.yarnpkg.com/normalize-url/-/normalize-url-4.5.1.tgz#0dd90cf1288ee1d1313b87081c9a5932ee48518a"
+  integrity sha512-9UZCFRHQdNrfTpGg8+1INIg93B6zE0aXMVFkw1WFwvO4SlZywU6aLg5Of0Ap/PgcbSw4LNxvMWXMeugwMCX0AA==
 
 npm-bundled@^1.0.1:
   version "1.0.5"
